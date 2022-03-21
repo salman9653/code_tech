@@ -1,14 +1,25 @@
 .container {
   padding: 0 2rem;
 }
-
+.navBar {
+  /* position: sticky;
+  top: 20px; */
+}
+.navBar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.navBar ul li {
+  margin: 0 30px;
+}
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -51,7 +62,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin-bottom: 1rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
