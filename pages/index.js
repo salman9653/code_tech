@@ -42,10 +42,6 @@ export default function Home() {
 
           </div>
         </main>
-
-        <footer className={styles.footer}>
-          By Salman
-        </footer>
       </div>
     </>
   )
