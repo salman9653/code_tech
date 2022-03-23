@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/BlogPost.module.css';
+import styles from '../styles/Blog.module.css';
 import Link from 'next/link';
 
 const Blog = () => {
@@ -8,13 +8,13 @@ const Blog = () => {
             <main className={styles.main}>
                 <div className={styles.blogItem}>
                     <Link href={'/blogpost/learn-reactjs'}>
-                        <h3>Learn React.js</h3>
+                        <h2>Learn React.js</h2>
                     </Link>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div className={styles.blogItem}>
                     <Link href={'/blogpost/learn-nextjs'}>
-                        <h3>Learn Next.js</h3>
+                        <h2>Learn Next.js</h2>
                     </Link>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>

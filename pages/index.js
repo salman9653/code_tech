@@ -36,10 +36,13 @@ export default function Home() {
           <div className="blogs">
             <h2>Latest Blogs</h2>
             <div className="blogItem">
+              <h3>Learn React.js</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div className="blogItem">
               <h3>Learn Next.js</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-
           </div>
         </main>
       </div>
