@@ -1,5 +1,6 @@
 import *  as fs from "fs";
 
+// http://localhost:3000/api/getblog?slug=learn-next      ----      how to use
 
 export default function handler(req, res) {
     fs.readFile(`blogData/${req.query.slug}.json`, 'utf-8', (err, data) => {
