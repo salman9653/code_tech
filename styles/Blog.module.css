@@ -12,6 +12,9 @@
 }
 .blogItem h2 {
   cursor: pointer;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
 }
 .blogItem p {
   max-width: 45vw;
